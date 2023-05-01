@@ -1,0 +1,11 @@
+services:
+
+  non-quoted-date:
+    image: bash
+    environment:
+      TEST_VAR: 2023-05-01
+
+  quoted-date:
+    image: bash
+    environment:
+      TEST_VAR: '2023-05-01'
